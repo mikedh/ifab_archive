@@ -8,9 +8,11 @@ Note that this is extremely unlikely to be useful but might be interesting. Code
 
 - some very early and since re-written code for [trimesh](https://github.com/mikedh/trimesh) started in `trunk/dev/pycad`. For amusement check out the [original design intent doc.](ifab/trunk/dev/pycad/pycad.txt)
 
-- the [open_abb](https://github.com/robotics/open_abb) robot driver hasn't been actively developed since but has been forked for use in a [number of](https://www.youtube.com/watch?v=pcp6kroGOVQ) [projects](https://www.youtube.com/watch?v=pcp6kroGOVQ)
+- the [open_abb](https://github.com/robotics/open_abb) robot driver hasn't been actively developed since but has been forked for use in a number of projects:
+[![DexNet](https://img.youtube.com/vi/pcp6kroGOVQ/0.jpg)](https://www.youtube.com/watch?v=pcp6kroGOVQ)
 
-- the design intent of AVM in general (3D model in, HMMWV out) formed the basis for the commercial [Kerfed Engine](https://kerfed.com/technology) ([demo on a robot](https://www.youtube.com/watch?v=HV_vTR2F2dI)).
+- the design intent of AVM in general (3D model in, HMMWV out) formed the basis for the commercial [Kerfed Engine](https://kerfed.com/technology)
+[![Demo on a robot](https://img.youtube.com/vi/HV_vTR2F2dI/0.jpg)](https://www.youtube.com/watch?v=HV_vTR2F2dI)
 
 ### iFAB Demos
 
