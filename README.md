@@ -10,7 +10,7 @@ Note that this is extremely unlikely to be useful but might be interesting. Code
 
 - the [open_abb](https://github.com/robotics/open_abb) robot driver hasn't been actively developed since but has been forked for use in a [number of projects](https://www.youtube.com/watch?v=pcp6kroGOVQ).
 
-- the design intent of AVM in general (3D model in, HMMWV out) formed the basis for the commercial [Kerfed Engine](https://kerfed.com/technology) ((demo)[https://www.youtube.com/watch?v=HV_vTR2F2dI])
+- the design intent of AVM in general (3D model in, HMMWV out) formed the basis for the commercial [Kerfed Engine](https://kerfed.com/technology) ([demo](https://www.youtube.com/watch?v=HV_vTR2F2dI)).
 
 ### iFAB Demos
 
