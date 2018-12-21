@@ -1,0 +1,1194 @@
+MMC:CFG_1.0:5:0::
+#
+MMC_REAL_ROUTINE:
+
+      -name "capl"\
+      -default_struct 1,0,1,1,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "capc"\
+      -default_struct 1,1,0,1,1,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "setupsuperv"\
+      -default_struct 1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "capweavesync"\
+      -default_struct 0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "capaptrsetup"\
+      -default_struct 1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "caplatrsetup"\
+      -default_struct 1,1,1,0,0,1,0,0,0,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+
+      -name "ipathpos"\
+      -default_struct 1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "capsensorscan"\
+      -default_struct 1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcL"\
+      -default_struct 1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcL1"\
+      -default_struct 1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcL2"\
+      -default_struct 1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcC"\
+      -default_struct 1,1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcC1"\
+      -default_struct 1,1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcC2"\
+      -default_struct 1,1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcMoveL"\
+      -default_struct 0,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcMoveJ"\
+      -default_struct 0,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcMoveC"\
+      -default_struct 0,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcMoveExtJ"\
+      -default_struct 0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcMoveAbsJ"\
+      -default_struct 0,1,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcLStart"\
+      -default_struct 1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcL1Start"\
+      -default_struct 1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcL2Start"\
+      -default_struct 1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcLEnd"\
+      -default_struct 1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcL1End"\
+      -default_struct 1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcL2End"\
+      -default_struct 1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcCStart"\
+      -default_struct 1,1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcC1Start"\
+      -default_struct 1,1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcC2Start"\
+      -default_struct 1,1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcCEnd"\
+      -default_struct 1,1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcC1End"\
+      -default_struct 1,1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcC2End"\
+      -default_struct 1,1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "aw_power_on" -hidden 
+
+      -name "aw_start" -hidden 
+
+      -name "AE_BlockAll" -hidden 
+
+      -name "AE_FlushAllSkip" -hidden 
+
+      -name "AE_FlushSeamSkip" -hidden 
+
+      -name "AE_UnBlockAll" -hidden 
+
+      -name "aw_err_hnd" -hidden 
+
+      -name "aw_proc" -hidden 
+
+      -name "awRestart" -hidden 
+
+      -name "awStart" -hidden 
+
+      -name "awReset" -hidden 
+
+      -name "awSysEvStop" -hidden 
+
+      -name "awSysEvQStop" -hidden 
+
+      -name "ConnectAliasDO" -hidden 
+
+      -name "RecoveryMenu" -hidden 
+
+      -name "ArcTextShow" -hidden 
+
+      -name "RecoveryPosSet" -hidden 
+
+      -name "RecoveryPosReset" -hidden 
+
+      -name "AppendMecTasks" -hidden 
+
+      -name "FillMecTaskList" -hidden 
+
+      -name "CalPendelum" -hidden 
+
+      -name "CalPendelumProc" -hidden 
+
+      -name "PendelumProc" -hidden 
+
+      -name "CW_Options" -hidden 
+
+      -name "CW_ReadLevel" -hidden 
+
+      -name "AutoFineCalib" -hidden 
+
+      -name "CW_Refcalib" -hidden 
+
+      -name "ReadBarcode" -hidden 
+#
+MMC_REAL_PARAM:
+
+      -name "capc_t1" -name_rule "LAST"
+
+      -name "capc_t2" -name_rule "LAST"
+
+      -name "capc_t3" -name_rule "LAST"
+
+      -name "capc_t4" -name_rule "LAST"
+
+      -name "capc_t5" -name_rule "LAST"
+
+      -name "capc_t6" -name_rule "LAST"
+
+      -name "capc_t7" -name_rule "LAST"
+
+      -name "capc_t8" -name_rule "LAST"
+
+      -name "capc_track" -name_rule "LAST"
+
+      -name "capc_movstatim" -name_rule "LAST"
+
+      -name "capc_cdata" -name_rule "LAST"
+
+      -name "capc_weave" -name_rule "LAST"
+
+      -name "capc_weavestart" -name_rule "LAST"
+
+      -name "capc_tool" -name_rule "CUR" -method "hirule_tooldata"
+
+      -name "capc_wobj" -name_rule "CUR" -method "hirule_wobjdata"
+
+      -name "capl_t1" -name_rule "LAST"
+
+      -name "capl_t2" -name_rule "LAST"
+
+      -name "capl_t3" -name_rule "LAST"
+
+      -name "capl_t4" -name_rule "LAST"
+
+      -name "capl_t5" -name_rule "LAST"
+
+      -name "capl_t6" -name_rule "LAST"
+
+      -name "capl_t7" -name_rule "LAST"
+
+      -name "capl_t8" -name_rule "LAST"
+
+      -name "capl_track" -name_rule "LAST"
+
+      -name "capl_movstatim" -name_rule "LAST"
+
+      -name "capl_cdata" -name_rule "LAST"
+
+      -name "capl_weave" -name_rule "LAST"
+
+      -name "capl_weavestart" -name_rule "LAST"
+
+      -name "capl_tool" -name_rule "CUR" -method "hirule_tooldata"
+
+      -name "capl_wobj" -name_rule "CUR" -method "hirule_wobjdata"
+
+      -name "capsensorscan_nvalid" -name_rule "LAST" -max_value 50 -min_value 1
+
+      -name "capsensorscan_maxdev" -name_rule "LAST" -max_value 10
+
+      -name "cap_point" -name_rule "SEQ" -method "hirule_robtarget"
+
+      -name "cap_speed" -name_rule "LAST" -def_name "v200"
+
+      -name "cap_zone" -name_rule "LAST" -def_name "z10"
+
+      -name "cap_cir_zone" -name_rule "LAST" -def_name "z10"
+
+      -name "arc_common_seam" -name_rule "LAST"
+
+      -name "arc_common_weld" -name_rule "LAST"
+
+      -name "arc_common_weave" -name_rule "LAST"
+
+      -name "arc_common_track" -name_rule "LAST"
+
+      -name "arc_common_seamname" -name_rule "LAST" -def_name """weldseam"""
+
+      -name "arc_common_zone" -name_rule "LAST" -def_name "z10"
+
+      -name "arc_common_tool" -name_rule "CUR" -method "hirule_tooldata"
+
+      -name "arc_common_wobj" -name_rule "CUR" -method "hirule_wobjdata"
+
+      -name "arc_common_seam1" -name_rule "LAST"
+
+      -name "arc_common_weld1" -name_rule "LAST"
+
+      -name "arc_common_weave1" -name_rule "LAST"
+
+      -name "arc_common_track1" -name_rule "LAST"
+
+      -name "arc_common_seamname1" -name_rule "LAST" -def_name """weldseam"""
+
+      -name "arc_common_zone1" -name_rule "LAST" -def_name "z10"
+
+      -name "arc_common_tool1" -name_rule "CUR" -method "hirule_tooldata"
+
+      -name "arc_common_wobj1" -name_rule "CUR" -method "hirule_wobjdata"
+
+      -name "arc_common_seam2" -name_rule "LAST"
+
+      -name "arc_common_weld2" -name_rule "LAST"
+
+      -name "arc_common_weave2" -name_rule "LAST"
+
+      -name "arc_common_track2" -name_rule "LAST"
+
+      -name "arc_common_seamname2" -name_rule "LAST" -def_name """weldseam"""
+
+      -name "arc_common_zone2" -name_rule "LAST" -def_name "z10"
+
+      -name "arc_common_tool2" -name_rule "CUR" -method "hirule_tooldata"
+
+      -name "arc_common_wobj2" -name_rule "CUR" -method "hirule_wobjdata"
+
+      -name "ArcMoveL_Tool" -name_rule "CUR" -method "hirule_tooldata"
+
+      -name "ArcMoveL_WObj" -name_rule "CUR" -method "hirule_wobjdata"
+
+      -name "ArcMoveJ_id" -name_rule "VAL"
+
+      -name "ArcMoveJ_Tool" -name_rule "CUR" -method "hirule_tooldata"
+
+      -name "ArcMoveJ_WObj" -name_rule "CUR" -method "hirule_wobjdata"
+
+      -name "ArcMoveC_id" -name_rule "VAL"
+
+      -name "ArcMoveC_Tool" -name_rule "CUR" -method "hirule_tooldata"
+
+      -name "ArcMoveC_WObj" -name_rule "CUR" -method "hirule_wobjdata"
+
+      -name "ArcMoveAbsJ_id" -name_rule "VAL"
+
+      -name "ArcMoveAbsJ_Tool" -name_rule "CUR" -method "hirule_tooldata"
+
+      -name "ArcMoveAbsJ_WObj" -name_rule "CUR" -method "hirule_wobjdata"
+
+      -name "ArcMoveExtJ_tojointpos" -name_rule "SEQ"\
+      -method "hirule_jointtarget"
+
+      -name "ArcMoveExtJ_speed" -name_rule "NONE"
+
+      -name "arc_common_finezone" -name_rule "LAST" -def_name "fine"
+
+      -name "RecoveryPosSet_ServRoutine" -name_rule "LAST" -def_name """"""
+#
+MMC_REAL_PARAM_SEQ_METHOD:
+
+      -name "method"
+#
+MMC_REAL_DATATYPE:
+
+      -name "capdata" -def_name "capdata" -value_rule "DEF"\
+      -use_value "[FALSE,FALSE,FALSE,FALSE,0,[0,0,0,0,20,0],[FALSE,0,0],[FALSE,0,0],[0,0,0,0,0],[0,0,0],[FALSE,FALSE,FALSE,FALSE,FALSE,FALSE]]"\
+      -object_type "TASK PERS"
+
+      -name "capspeeddata" -def_name "capspeed" -value_rule "DEF"\
+      -use_value "[0,0,0,0,20,0]" -object_type "TASK PERS"
+
+      -name "flypointdata" -def_name "capfly" -value_rule "DEF"\
+      -use_value "[FALSE,0,0]" -object_type "TASK PERS"
+
+      -name "supervtimeouts" -def_name "capsupt" -value_rule "DEF"\
+      -use_value "[0,0,0,0,0]" -object_type "TASK PERS"
+
+      -name "processtimes" -def_name "capproct" -value_rule "DEF"\
+      -use_value "[0,0,0]" -object_type "TASK PERS"
+
+      -name "restartblkdat" -def_name "capresblk" -value_rule "DEF"\
+      -use_value "[FALSE,FALSE,FALSE,FALSE,FALSE,FALSE]"\
+      -object_type "TASK PERS"
+
+      -name "capweavedata" -def_name "capwv" -value_rule "DEF"\
+      -use_value "[FALSE,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE]"\
+      -object_type "TASK PERS"
+
+      -name "weavestartdata" -def_name "capwvst" -value_rule "DEF"\
+      -use_value "[FALSE,0,0,0]" -object_type "TASK PERS"
+
+      -name "captrackdata" -def_name "captrack" -value_rule "DEF"\
+      -use_value "["""",50,[1,10,1,0,0,0,0,0]]" -object_type "TASK PERS"
+
+      -name "caplatrackdata" -def_name "caplatr" -value_rule "DEF"\
+      -use_value "[1,10,1,0,0,0,0,0]" -object_type "TASK PERS"
+
+      -name "capmvsttim" -def_name "capmvsttim" -value_rule "DEF" -use_value "2"\
+      -object_type "TASK PERS"
+
+      -name "captestno" -def_name "captestno" -value_rule "DEF" -use_value "0"\
+      -object_type "TASK PERS"
+
+      -name "seamdata" -def_name "seam" -value_rule "DEF"\
+      -object_type "TASK PERS"
+
+      -name "seamdata1" -def_name "seam" -value_rule "DEF"\
+      -object_type "TASK PERS"
+
+      -name "seamdata2" -def_name "seam" -value_rule "DEF"\
+      -object_type "TASK PERS"
+
+      -name "welddata" -def_name "weld" -value_rule "DEF"\
+      -use_value "[10,0,[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0]]"\
+      -object_type "TASK PERS"
+
+      -name "welddata1" -def_name "weld" -value_rule "DEF"\
+      -use_value "[10,0,[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0]]"\
+      -object_type "TASK PERS"
+
+      -name "welddata2" -def_name "weld" -value_rule "DEF"\
+      -use_value "[10,0,[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0]]"\
+      -object_type "TASK PERS"
+
+      -name "weavedata" -def_name "weave" -value_rule "DEF"\
+      -object_type "TASK PERS"
+
+      -name "weavedata1" -def_name "weave" -value_rule "DEF"\
+      -object_type "TASK PERS"
+
+      -name "weavedata2" -def_name "weave" -value_rule "DEF"\
+      -object_type "TASK PERS"
+
+      -name "trackdata" -def_name "track" -value_rule "DEF"\
+      -object_type "TASK PERS"
+
+      -name "trackdata1" -def_name "track" -value_rule "DEF"\
+      -object_type "TASK PERS"
+
+      -name "trackdata2" -def_name "track" -value_rule "DEF"\
+      -object_type "TASK PERS"
+
+      -name "arcflydata" -def_name "arcfly" -value_rule "DEF"\
+      -object_type "TASK PERS"
+#
+MMC_COMMON_PARAM:
+
+      -name "capc_id" -common_space_name "common_id"
+
+      -name "capl_id" -common_space_name "common_id"
+
+      -name "capc_cirpoint" -common_space_name "cap_point"
+
+      -name "capc_topoint" -common_space_name "cap_point"
+
+      -name "capl_topoint" -common_space_name "cap_point"
+
+      -name "capc_speed" -common_space_name "cap_speed"
+
+      -name "capl_speed" -common_space_name "cap_speed"
+
+      -name "capc_zone" -common_space_name "cap_cir_zone"
+
+      -name "capl_zone" -common_space_name "cap_zone"
+
+      -name "ArcL_ToPoint" -common_space_name "common_point"
+
+      -name "ArcL_id" -common_space_name "common_id"
+
+      -name "ArcL_Speed" -common_space_name "common_speed"
+
+      -name "ArcL_Seam" -common_space_name "arc_common_seam"
+
+      -name "ArcL_Weld" -common_space_name "arc_common_weld"
+
+      -name "ArcL_Weave" -common_space_name "arc_common_weave"
+
+      -name "ArcL_Zone" -common_space_name "arc_common_zone"
+
+      -name "ArcL_Tool" -common_space_name "arc_common_tool"
+
+      -name "ArcL_WObj" -common_space_name "arc_common_wobj"
+
+      -name "ArcL_Track" -common_space_name "arc_common_track"
+
+      -name "ArcL1_ToPoint" -common_space_name "common_point"
+
+      -name "ArcL1_id" -common_space_name "common_id"
+
+      -name "ArcL1_Speed" -common_space_name "common_speed"
+
+      -name "ArcL1_Seam" -common_space_name "arc_common_seam1"
+
+      -name "ArcL1_Weld" -common_space_name "arc_common_weld1"
+
+      -name "ArcL1_Weave" -common_space_name "arc_common_weave1"
+
+      -name "ArcL1_Zone" -common_space_name "arc_common_zone"
+
+      -name "ArcL1_Tool" -common_space_name "arc_common_tool"
+
+      -name "ArcL1_WObj" -common_space_name "arc_common_wobj"
+
+      -name "ArcL1_Track" -common_space_name "arc_common_track1"
+
+      -name "ArcL2_ToPoint" -common_space_name "common_point"
+
+      -name "ArcL2_id" -common_space_name "common_id"
+
+      -name "ArcL2_Speed" -common_space_name "common_speed"
+
+      -name "ArcL2_Seam" -common_space_name "arc_common_seam2"
+
+      -name "ArcL2_Weld" -common_space_name "arc_common_weld2"
+
+      -name "ArcL2_Weave" -common_space_name "arc_common_weave2"
+
+      -name "ArcL2_Zone" -common_space_name "arc_common_zone"
+
+      -name "ArcL2_Tool" -common_space_name "arc_common_tool"
+
+      -name "ArcL2_WObj" -common_space_name "arc_common_wobj"
+
+      -name "ArcL2_Track" -common_space_name "arc_common_track2"
+
+      -name "ArcC_ToPoint" -common_space_name "common_point"
+
+      -name "ArcC_id" -common_space_name "common_id"
+
+      -name "ArcC_CirPoint" -common_space_name "common_point"
+
+      -name "ArcC_Speed" -common_space_name "common_speed"
+
+      -name "ArcC_Seam" -common_space_name "arc_common_seam"
+
+      -name "ArcC_Weld" -common_space_name "arc_common_weld"
+
+      -name "ArcC_Weave" -common_space_name "arc_common_weave"
+
+      -name "ArcC_Zone" -common_space_name "arc_common_zone"
+
+      -name "ArcC_Tool" -common_space_name "arc_common_tool"
+
+      -name "ArcC_WObj" -common_space_name "arc_common_wobj"
+
+      -name "ArcC_Track" -common_space_name "arc_common_track"
+
+      -name "ArcC1_ToPoint" -common_space_name "common_point"
+
+      -name "ArcC1_id" -common_space_name "common_id"
+
+      -name "ArcC1_CirPoint" -common_space_name "common_point"
+
+      -name "ArcC1_Speed" -common_space_name "common_speed"
+
+      -name "ArcC1_Seam" -common_space_name "arc_common_seam1"
+
+      -name "ArcC1_Weld" -common_space_name "arc_common_weld1"
+
+      -name "ArcC1_Weave" -common_space_name "arc_common_weave1"
+
+      -name "ArcC1_Zone" -common_space_name "arc_common_zone"
+
+      -name "ArcC1_Tool" -common_space_name "arc_common_tool"
+
+      -name "ArcC1_WObj" -common_space_name "arc_common_wobj"
+
+      -name "ArcC1_Track" -common_space_name "arc_common_track1"
+
+      -name "ArcC2_ToPoint" -common_space_name "common_point"
+
+      -name "ArcC2_id" -common_space_name "common_id"
+
+      -name "ArcC2_CirPoint" -common_space_name "common_point"
+
+      -name "ArcC2_Speed" -common_space_name "common_speed"
+
+      -name "ArcC2_Seam" -common_space_name "arc_common_seam2"
+
+      -name "ArcC2_Weld" -common_space_name "arc_common_weld2"
+
+      -name "ArcC2_Weave" -common_space_name "arc_common_weave2"
+
+      -name "ArcC2_Zone" -common_space_name "arc_common_zone"
+
+      -name "ArcC2_Tool" -common_space_name "arc_common_tool"
+
+      -name "ArcC2_WObj" -common_space_name "arc_common_wobj"
+
+      -name "ArcC2_Track" -common_space_name "arc_common_track2"
+
+      -name "ArcMoveL_ToPoint" -common_space_name "common_point"
+
+      -name "ArcMoveL_id" -common_space_name "common_id"
+
+      -name "ArcMoveL_Speed" -common_space_name "common_speed"
+
+      -name "ArcMoveL_Zone" -common_space_name "common_cir_zone"
+
+      -name "ArcMoveJ_ToPoint" -common_space_name "common_point"
+
+      -name "ArcMoveJ_id" -common_space_name "common_id"
+
+      -name "ArcMoveJ_Speed" -common_space_name "common_speed"
+
+      -name "ArcMoveJ_Zone" -common_space_name "common_cir_zone"
+
+      -name "ArcMoveC_ToPoint" -common_space_name "common_point"
+
+      -name "ArcMoveC_id" -common_space_name "common_id"
+
+      -name "ArcMoveC_CirPoint" -common_space_name "common_point"
+
+      -name "ArcMoveC_Speed" -common_space_name "common_speed"
+
+      -name "ArcMoveC_Zone" -common_space_name "common_cir_zone"
+
+      -name "ArcMoveExtJ_Zone" -common_space_name "common_cir_zone"
+
+      -name "ArcMoveExtJ_id" -common_space_name "common_id"
+
+      -name "ArcMoveAbsJ_ToPoint" -common_space_name "common_point"
+
+      -name "ArcMoveAbsJ_id" -common_space_name "common_id"
+
+      -name "ArcMoveAbsJ_Speed" -common_space_name "common_speed"
+
+      -name "ArcMoveabsJ_Zone" -common_space_name "common_cir_zone"
+
+      -name "ArcLStart_ToPoint" -common_space_name "common_point"
+
+      -name "ArcLStart_id" -common_space_name "common_id"
+
+      -name "ArcLStart_Speed" -common_space_name "common_speed"
+
+      -name "ArcLStart_Seam" -common_space_name "arc_common_seam"
+
+      -name "ArcLStart_Weld" -common_space_name "arc_common_weld"
+
+      -name "ArcLStart_Weave" -common_space_name "arc_common_weave"
+
+      -name "ArcLStart_Zone" -common_space_name "arc_common_finezone"
+
+      -name "ArcLStart_Tool" -common_space_name "arc_common_tool"
+
+      -name "ArcLStart_WObj" -common_space_name "arc_common_wobj"
+
+      -name "ArcLStart_Track" -common_space_name "arc_common_track"
+
+      -name "ArcLStart_SeamName" -common_space_name "arc_common_seamname"
+
+      -name "ArcL1Start_ToPoint" -common_space_name "common_point"
+
+      -name "ArcL1Start_id" -common_space_name "common_id"
+
+      -name "ArcL1Start_Speed" -common_space_name "common_speed"
+
+      -name "ArcL1Start_Seam" -common_space_name "arc_common_seam1"
+
+      -name "ArcL1Start_Weld" -common_space_name "arc_common_weld1"
+
+      -name "ArcL1Start_Weave" -common_space_name "arc_common_weave1"
+
+      -name "ArcL1Start_Zone" -common_space_name "arc_common_finezone"
+
+      -name "ArcL1Start_Tool" -common_space_name "arc_common_tool"
+
+      -name "ArcL1Start_WObj" -common_space_name "arc_common_wobj"
+
+      -name "ArcL1Start_Track" -common_space_name "arc_common_track1"
+
+      -name "ArcL1Start_SeamName" -common_space_name "arc_common_seamname"
+
+      -name "ArcL2Start_ToPoint" -common_space_name "common_point"
+
+      -name "ArcL2Start_id" -common_space_name "common_id"
+
+      -name "ArcL2Start_Speed" -common_space_name "common_speed"
+
+      -name "ArcL2Start_Seam" -common_space_name "arc_common_seam2"
+
+      -name "ArcL2Start_Weld" -common_space_name "arc_common_weld2"
+
+      -name "ArcL2Start_Weave" -common_space_name "arc_common_weave2"
+
+      -name "ArcL2Start_Zone" -common_space_name "arc_common_finezone"
+
+      -name "ArcL2Start_Tool" -common_space_name "arc_common_tool"
+
+      -name "ArcL2Start_WObj" -common_space_name "arc_common_wobj"
+
+      -name "ArcL2Start_Track" -common_space_name "arc_common_track2"
+
+      -name "ArcL2Start_SeamName" -common_space_name "arc_common_seamname"
+
+      -name "ArcLEnd_ToPoint" -common_space_name "common_point"
+
+      -name "ArcLEnd_id" -common_space_name "common_id"
+
+      -name "ArcLEnd_Speed" -common_space_name "common_speed"
+
+      -name "ArcLEnd_Seam" -common_space_name "arc_common_seam"
+
+      -name "ArcLEnd_Weld" -common_space_name "arc_common_weld"
+
+      -name "ArcLEnd_Weave" -common_space_name "arc_common_weave"
+
+      -name "ArcLEnd_Zone" -common_space_name "arc_common_finezone"
+
+      -name "ArcLEnd_Tool" -common_space_name "arc_common_tool"
+
+      -name "ArcLEnd_WObj" -common_space_name "arc_common_wobj"
+
+      -name "ArcLEnd_Track" -common_space_name "arc_common_track"
+
+      -name "ArcL1End_ToPoint" -common_space_name "common_point"
+
+      -name "ArcL1End_id" -common_space_name "common_id"
+
+      -name "ArcL1End_Speed" -common_space_name "common_speed"
+
+      -name "ArcL1End_Seam" -common_space_name "arc_common_seam1"
+
+      -name "ArcL1End_Weld" -common_space_name "arc_common_weld1"
+
+      -name "ArcL1End_Weave" -common_space_name "arc_common_weave1"
+
+      -name "ArcL1End_Zone" -common_space_name "arc_common_finezone"
+
+      -name "ArcL1End_Tool" -common_space_name "arc_common_tool"
+
+      -name "ArcL1End_WObj" -common_space_name "arc_common_wobj"
+
+      -name "ArcL1End_Track" -common_space_name "arc_common_track1"
+
+      -name "ArcL2End_ToPoint" -common_space_name "common_point"
+
+      -name "ArcL2End_id" -common_space_name "common_id"
+
+      -name "ArcL2End_Speed" -common_space_name "common_speed"
+
+      -name "ArcL2End_Seam" -common_space_name "arc_common_seam2"
+
+      -name "ArcL2End_Weld" -common_space_name "arc_common_weld2"
+
+      -name "ArcL2End_Weave" -common_space_name "arc_common_weave2"
+
+      -name "ArcL2End_Zone" -common_space_name "arc_common_finezone"
+
+      -name "ArcL2End_Tool" -common_space_name "arc_common_tool"
+
+      -name "ArcL2End_WObj" -common_space_name "arc_common_wobj"
+
+      -name "ArcL2End_Track" -common_space_name "arc_common_track2"
+
+      -name "ArcCStart_ToPoint" -common_space_name "common_point"
+
+      -name "ArcCStart_CirPoint" -common_space_name "common_point"
+
+      -name "ArcCStart_id" -common_space_name "common_id"
+
+      -name "ArcCStart_Speed" -common_space_name "common_speed"
+
+      -name "ArcCStart_Seam" -common_space_name "arc_common_seam"
+
+      -name "ArcCStart_Weld" -common_space_name "arc_common_weld"
+
+      -name "ArcCStart_Weave" -common_space_name "arc_common_weave"
+
+      -name "ArcCStart_Zone" -common_space_name "arc_common_finezone"
+
+      -name "ArcCStart_Tool" -common_space_name "arc_common_tool"
+
+      -name "ArcCStart_WObj" -common_space_name "arc_common_wobj"
+
+      -name "ArcCStart_Track" -common_space_name "arc_common_track"
+
+      -name "ArcCStart_SeamName" -common_space_name "arc_common_seamname"
+
+      -name "ArcC1Start_ToPoint" -common_space_name "common_point"
+
+      -name "ArcC1Start_CirPoint" -common_space_name "common_point"
+
+      -name "ArcC1Start_id" -common_space_name "common_id"
+
+      -name "ArcC1Start_Speed" -common_space_name "common_speed"
+
+      -name "ArcC1Start_Seam" -common_space_name "arc_common_seam1"
+
+      -name "ArcC1Start_Weld" -common_space_name "arc_common_weld1"
+
+      -name "ArcC1Start_Weave" -common_space_name "arc_common_weave1"
+
+      -name "ArcC1Start_Zone" -common_space_name "arc_common_finezone"
+
+      -name "ArcC1Start_Tool" -common_space_name "arc_common_tool"
+
+      -name "ArcC1Start_WObj" -common_space_name "arc_common_wobj"
+
+      -name "ArcC1Start_Track" -common_space_name "arc_common_track1"
+
+      -name "ArcC1Start_SeamName" -common_space_name "arc_common_seamname"
+
+      -name "ArcC2Start_ToPoint" -common_space_name "common_point"
+
+      -name "ArcC2Start_CirPoint" -common_space_name "common_point"
+
+      -name "ArcC2Start_id" -common_space_name "common_id"
+
+      -name "ArcC2Start_Speed" -common_space_name "common_speed"
+
+      -name "ArcC2Start_Seam" -common_space_name "arc_common_seam2"
+
+      -name "ArcC2Start_Weld" -common_space_name "arc_common_weld2"
+
+      -name "ArcC2Start_Weave" -common_space_name "arc_common_weave2"
+
+      -name "ArcC2Start_Zone" -common_space_name "arc_common_finezone"
+
+      -name "ArcC2Start_Tool" -common_space_name "arc_common_tool"
+
+      -name "ArcC2Start_WObj" -common_space_name "arc_common_wobj"
+
+      -name "ArcC2Start_Track" -common_space_name "arc_common_track2"
+
+      -name "ArcC2Start_SeamName" -common_space_name "arc_common_seamname"
+
+      -name "ArcCEnd_ToPoint" -common_space_name "common_point"
+
+      -name "ArcCEnd_CirPoint" -common_space_name "common_point"
+
+      -name "ArcCEnd_id" -common_space_name "common_id"
+
+      -name "ArcCEnd_Speed" -common_space_name "common_speed"
+
+      -name "ArcCEnd_Seam" -common_space_name "arc_common_seam"
+
+      -name "ArcCEnd_Weld" -common_space_name "arc_common_weld"
+
+      -name "ArcCEnd_Weave" -common_space_name "arc_common_weave"
+
+      -name "ArcCEnd_Zone" -common_space_name "arc_common_finezone"
+
+      -name "ArcCEnd_Tool" -common_space_name "arc_common_tool"
+
+      -name "ArcCEnd_WObj" -common_space_name "arc_common_wobj"
+
+      -name "ArcCEnd_Track" -common_space_name "arc_common_track"
+
+      -name "ArcC1End_ToPoint" -common_space_name "common_point"
+
+      -name "ArcC1End_CirPoint" -common_space_name "common_point"
+
+      -name "ArcC1End_id" -common_space_name "common_id"
+
+      -name "ArcC1End_Speed" -common_space_name "common_speed"
+
+      -name "ArcC1End_Seam" -common_space_name "arc_common_seam1"
+
+      -name "ArcC1End_Weld" -common_space_name "arc_common_weld1"
+
+      -name "ArcC1End_Weave" -common_space_name "arc_common_weave1"
+
+      -name "ArcC1End_Zone" -common_space_name "arc_common_finezone"
+
+      -name "ArcC1End_Tool" -common_space_name "arc_common_tool"
+
+      -name "ArcC1End_WObj" -common_space_name "arc_common_wobj"
+
+      -name "ArcC1End_Track" -common_space_name "arc_common_track1"
+
+      -name "ArcC2End_ToPoint" -common_space_name "common_point"
+
+      -name "ArcC2End_CirPoint" -common_space_name "common_point"
+
+      -name "ArcC2End_id" -common_space_name "common_id"
+
+      -name "ArcC2End_Speed" -common_space_name "common_speed"
+
+      -name "ArcC2End_Seam" -common_space_name "arc_common_seam2"
+
+      -name "ArcC2End_Weld" -common_space_name "arc_common_weld2"
+
+      -name "ArcC2End_Weave" -common_space_name "arc_common_weave2"
+
+      -name "ArcC2End_Zone" -common_space_name "arc_common_finezone"
+
+      -name "ArcC2End_Tool" -common_space_name "arc_common_tool"
+
+      -name "ArcC2End_WObj" -common_space_name "arc_common_wobj"
+
+      -name "ArcC2End_Track" -common_space_name "arc_common_track2"
+#
+MMC_INST_NOT_REUSING_PREV_OPT_ARG:
+
+      -name "capl"\
+      -param_nr 10,14,15,16,17,18,19,20,21,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "capc"\
+      -param_nr 11,15,16,17,18,19,20,21,22,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcL"\
+      -param_nr 12,13,14,15,16,17,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcL1"\
+      -param_nr 12,13,14,15,16,17,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcL2"\
+      -param_nr 12,13,14,15,16,17,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcC"\
+      -param_nr 13,14,15,16,17,18,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcC1"\
+      -param_nr 13,14,15,16,17,18,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+      -name "ArcC2"\
+      -param_nr 13,14,15,16,17,18,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+#
+MMC_INSTR_WITH_WOBJ:
+
+      -name "capc" -param_nr 12
+
+      -name "capl" -param_nr 11
+
+      -name "ArcL" -param_nr 9
+
+      -name "ArcL1" -param_nr 9
+
+      -name "ArcL2" -param_nr 9
+
+      -name "ArcC" -param_nr 10
+
+      -name "ArcC1" -param_nr 10
+
+      -name "ArcC2" -param_nr 10
+
+      -name "ArcMoveL" -param_nr 10
+
+      -name "ArcMoveJ" -param_nr 10
+
+      -name "ArcMoveC" -param_nr 11
+
+      -name "ArcMoveAbsJ" -param_nr 11
+
+      -name "ArcLStart" -param_nr 9
+
+      -name "ArcL1Start" -param_nr 9
+
+      -name "ArcL2Start" -param_nr 9
+
+      -name "ArcLEnd" -param_nr 9
+
+      -name "ArcL1End" -param_nr 9
+
+      -name "ArcL2End" -param_nr 9
+
+      -name "ArcCStart" -param_nr 10
+
+      -name "ArcC1Start" -param_nr 10
+
+      -name "ArcC2Start" -param_nr 10
+
+      -name "ArcCEnd" -param_nr 10
+
+      -name "ArcC1End" -param_nr 10
+
+      -name "ArcC2End" -param_nr 10
+#
+MMC_INSTR_WITH_CIR_POINT:
+
+      -name "capc" -param_nr 1
+
+      -name "ArcC" -param_nr 1
+
+      -name "ArcC1" -param_nr 1
+
+      -name "ArcC2" -param_nr 1
+
+      -name "ArcMoveC" -param_nr 2
+
+      -name "ArcCStart" -param_nr 1
+
+      -name "ArcC1Start" -param_nr 1
+
+      -name "ArcC2Start" -param_nr 1
+
+      -name "ArcCEnd" -param_nr 1
+
+      -name "ArcC1End" -param_nr 1
+
+      -name "ArcC2End" -param_nr 1
+#
+MMC_NO_NOREGAIN:
+
+      -name "capc"
+
+      -name "ArcC"
+
+      -name "ArcC1"
+
+      -name "ArcC2"
+
+      -name "ArcCStart"
+
+      -name "ArcC1Start"
+
+      -name "ArcC2Start"
+
+      -name "ArcCEnd"
+
+      -name "ArcC1End"
+
+      -name "ArcC2End"
+#
+MMC_NO_PC_MOVEMENT:
+
+      -name "capc_cirpoint"
+
+      -name "ArcC_CirPoint"
+
+      -name "ArcC1_CirPoint"
+
+      -name "ArcC2_CirPoint"
+
+      -name "ArcCStart_CirPoint"
+
+      -name "ArcC1Start_CirPoint"
+
+      -name "ArcC2Start_CirPoint"
+
+      -name "ArcCEnd_CirPoint"
+
+      -name "ArcC1End_CirPoint"
+
+      -name "ArcC2End_CirPoint"
+#
+MMC_SELECT_PARAM:
+
+      -name "capc" -param_nr 2
+
+      -name "ArcC" -param_nr 2
+
+      -name "ArcC1" -param_nr 2
+
+      -name "ArcC2" -param_nr 2
+
+      -name "ArcMoveC" -param_nr 3
+
+      -name "ArcCStart" -param_nr 2
+
+      -name "ArcC1Start" -param_nr 2
+
+      -name "ArcC2Start" -param_nr 2
+
+      -name "ArcCEnd" -param_nr 2
+
+      -name "ArcC1End" -param_nr 2
+
+      -name "ArcC2End" -param_nr 2
+#
+MMC_CHANGE_MOTION_MODE:
+
+      -name "ArcMoveL" -shift_name "ArcMoveJ" -shift_mode "joint"
+
+      -name "ArcMoveJ" -shift_name "ArcMoveL" -shift_mode "lin"
+#
+MMC_PALETTE_HEAD:
+
+      -name "M.C 1" -type "MMC_MC1"
+
+      -name "M.C 2" -type "MMC_MC2"
+
+      -name "M.C 3" -type "MMC_MC3"
+#
+MMC_SERV_ROUT_STRUCT:
+
+      -name "CalPendelum"
+#
+IO_MOST_COMMON:
+
+      -signal_name "lsyncOut" -signal_type "DO"
+#
+WARN_AT_START:
+
+      -name "WarningAtStart" -cursor_pp_diff_warning 0\
+      -show_pp_to_cursor_button 0
+#
+AUTO_SWITCH_OF_JOG_UNIT:
+
+      -name "AutoSwitchOfJogUnit"
+#
+BACKUP_DEFAULT:
+
+     
+      -name "Backup"
+#
+MMC_MOTION = MMC_PALETTE:
+
+      -name "ArcLStart" -param_nr 1 -instr_name "ArcLStart"
+
+      -name "ArcC" -param_nr 1 -instr_name "ArcC"
+
+      -name "ArcL1" -param_nr 1 -instr_name "ArcL1"
+
+      -name "ArcC1" -param_nr 1 -instr_name "ArcC1"
+
+      -name "ArcL2" -param_nr 1 -instr_name "ArcL2"
+
+      -name "ArcC2" -param_nr 1 -instr_name "ArcC2"
+
+      -name "ArcMoveL" -param_nr 1 -instr_name "ArcMoveL"
+
+      -name "ArcMoveC" -param_nr 1 -instr_name "ArcMoveC"
+
+      -name "ArcMoveJ" -param_nr 1 -instr_name "ArcMoveJ"
+
+      -name "ArcMoveExtJ" -param_nr 1 -instr_name "ArcMoveExtJ"
+
+      -name "ArcMoveAbsJ" -param_nr 1 -instr_name "ArcMoveAbsJ"
+
+      -name "ArcLEnd" -param_nr 1 -instr_name "ArcLEnd"
+
+      -name "ArcCStart" -param_nr 1 -instr_name "ArcCStart"
+
+      -name "ArcCEnd" -param_nr 1 -instr_name "ArcCEnd"
+
+      -name "ArcL1Start" -param_nr 1 -instr_name "ArcL1Start"
+
+      -name "ArcL2Start" -param_nr 1 -instr_name "ArcL2Start"
+
+      -name "ArcL1End" -param_nr 1 -instr_name "ArcL1End"
+
+      -name "ArcL2End" -param_nr 1 -instr_name "ArcL2End"
+
+      -name "ArcC1Start" -param_nr 1 -instr_name "ArcC1Start"
+
+      -name "ArcC2Start" -param_nr 1 -instr_name "ArcC2Start"
+
+      -name "ArcC1End" -param_nr 1 -instr_name "ArcC1End"
+
+      -name "ArcC2End" -param_nr 1 -instr_name "ArcC2End"
+
+      -name "ArcRefresh" -param_nr 1 -instr_name "ArcRefresh"
+#
+MMC_ERROR = MMC_PALETTE:
+
+      -name "RecoveryPosSet"
+
+      -name "RecoveryPosReset"
+#
+MMC_MC1 = MMC_PALETTE:
+
+      -name "MoveJ" -only_mec_task 
+
+      -name "MoveL" -only_mec_task 
+
+      -name "MoveC" -only_mec_task 
+
+      -name "ProcCall"
+
+      -name "Set"
+
+      -name "Reset"
+
+      -name "WaitTime"
+
+      -name "WaitDI"
+
+      -name "IF"
+
+      -name "Compact IF"
+
+      -name ":="
+
+      -name "Incr"
+
+      -name "Add"
+
+      -name "Decr"
+
+      -name "ArcL" -param_nr 1 -instr_name "ArcL"
+#
+MMC_MC2 = MMC_PALETTE:
+
+      -name "MoveJ" -only_mec_task 
+
+      -name "MoveL" -only_mec_task 
+
+      -name "MoveC" -only_mec_task 
+
+      -name "ProcCall"
+
+      -name "Set"
+
+      -name "Reset"
+
+      -name "WaitTime"
+
+      -name "WaitDI"
+
+      -name "IF"
+
+      -name "Compact IF"
+
+      -name ":="
+
+      -name "Incr"
+
+      -name "Add"
+
+      -name "Decr"
+
+      -name "ArcL" -param_nr 1 -instr_name "ArcL"
+#
+MMC_MC3 = MMC_PALETTE:
+
+      -name "MoveJ" -only_mec_task 
+
+      -name "MoveL" -only_mec_task 
+
+      -name "MoveC" -only_mec_task 
+
+      -name "ProcCall"
+
+      -name "Set"
+
+      -name "Reset"
+
+      -name "WaitTime"
+
+      -name "WaitDI"
+
+      -name "IF"
+
+      -name "Compact IF"
+
+      -name ":="
+
+      -name "Incr"
+
+      -name "Add"
+
+      -name "Decr"
+
+      -name "ArcL" -param_nr 1 -instr_name "ArcL"

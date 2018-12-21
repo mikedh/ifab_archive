@@ -1,0 +1,1977 @@
+{
+    "elementMetaData": {
+        "c_upper": {
+            "elementID": "100", 
+            "material": "A500", 
+            "tolerance": [
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "d_bottom": {
+            "elementID": "101", 
+            "material": "A500", 
+            "tolerance": [
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "e_bottom": {
+            "elementID": "102", 
+            "material": "A500", 
+            "tolerance": [
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "f_upper": {
+            "elementID": "103", 
+            "material": "A500", 
+            "tolerance": [
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "g_vertical": {
+            "elementID": "104", 
+            "material": "A500", 
+            "tolerance": [
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "h_bumper": {
+            "elementID": "105", 
+            "material": "A500", 
+            "tolerance": [
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "subassembly_1": {
+            "components": [
+                "g_vertical", 
+                "f_upper"
+            ], 
+            "elementType": "subassembly"
+        }, 
+        "subassembly_2": {
+            "components": [
+                "h_bumper", 
+                "subassembly_1"
+            ], 
+            "elementType": "subassembly"
+        }, 
+        "subassembly_3": {
+            "components": [
+                "subassembly_2", 
+                "c_upper"
+            ], 
+            "elementType": "subassembly"
+        }, 
+        "subassembly_4": {
+            "components": [
+                "subassembly_3", 
+                "e_upper"
+            ], 
+            "elementType": "subassembly"
+        }, 
+        "subassembly_5": {
+            "components": [
+                "subassembly_4", 
+                "d_bottom"
+            ], 
+            "elementType": "subassembly"
+        }
+    }, 
+    "name": null, 
+    "orderingConstraints": null, 
+    "tasks": [
+        {
+            "elements": [
+                "g_vertical", 
+                "f_upper"
+            ], 
+            "inspection": {
+                "ingressMoves": [
+                    [
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0
+                    ], 
+                    [
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0
+                    ]
+                ], 
+                "line": [
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ]
+                ]
+            }, 
+            "name": "subassembly_1", 
+            "projection": {
+                "ingressMoves": [
+                    [
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0
+                    ], 
+                    [
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0
+                    ]
+                ], 
+                "projectionTargets": [
+                    [
+                        "c_upper", 
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ]
+                    ], 
+                    [
+                        "d_bottom", 
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ]
+                    ]
+                ]
+            }, 
+            "transformationMatrix": [
+                [
+                    1, 
+                    0, 
+                    0, 
+                    1300
+                ], 
+                [
+                    0, 
+                    1, 
+                    0, 
+                    -500
+                ], 
+                [
+                    0, 
+                    0, 
+                    1, 
+                    -96.8756
+                ], 
+                [
+                    0, 
+                    0, 
+                    0, 
+                    1
+                ]
+            ], 
+            "welds": [
+                {
+                    "ingressMoves": [
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ]
+                    ], 
+                    "line": [
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ], 
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ]
+                    ], 
+                    "weldParameters": {
+                        "sched": 3, 
+                        "voltage": 18, 
+                        "weave_height": 0, 
+                        "weave_length": 0.1, 
+                        "weave_width": 0.275, 
+                        "weld_speed": 23, 
+                        "wirefeed": 180
+                    }, 
+                    "weldType": "robotic"
+                }, 
+                {
+                    "ingressMoves": [
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ]
+                    ], 
+                    "line": [
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ], 
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ]
+                    ], 
+                    "weldParameters": {
+                        "sched": 3, 
+                        "voltage": 18, 
+                        "weave_height": 0, 
+                        "weave_length": 0.1, 
+                        "weave_width": 0.275, 
+                        "weld_speed": 23, 
+                        "wirefeed": 180
+                    }, 
+                    "weldType": "robotic"
+                }, 
+                {
+                    "ingressMoves": [
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ]
+                    ], 
+                    "line": [
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ], 
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ]
+                    ], 
+                    "weldParameters": {
+                        "sched": 3, 
+                        "voltage": 18, 
+                        "weave_height": 0, 
+                        "weave_length": 0.1, 
+                        "weave_width": 0.275, 
+                        "weld_speed": 23, 
+                        "wirefeed": 180
+                    }, 
+                    "weldType": "robotic"
+                }
+            ]
+        }, 
+        {
+            "elements": [
+                "subassembly_1", 
+                "h_bumper"
+            ], 
+            "inspection": {
+                "ingressMoves": [
+                    [
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0
+                    ], 
+                    [
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0
+                    ]
+                ], 
+                "line": [
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ]
+                ]
+            }, 
+            "name": "subassembly_2", 
+            "projection": {
+                "ingressMoves": [
+                    [
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0
+                    ], 
+                    [
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0
+                    ]
+                ], 
+                "projectionTargets": [
+                    [
+                        "c_upper", 
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ]
+                    ], 
+                    [
+                        "d_bottom", 
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ]
+                    ]
+                ]
+            }, 
+            "transformationMatrix": [
+                [
+                    1, 
+                    0, 
+                    0, 
+                    1300
+                ], 
+                [
+                    0, 
+                    1, 
+                    0, 
+                    -500
+                ], 
+                [
+                    0, 
+                    0, 
+                    1, 
+                    -96.8756
+                ], 
+                [
+                    0, 
+                    0, 
+                    0, 
+                    1
+                ]
+            ], 
+            "welds": [
+                {
+                    "ingressMoves": [
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ]
+                    ], 
+                    "line": [
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ], 
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ]
+                    ], 
+                    "weldParameters": {
+                        "sched": 3, 
+                        "voltage": 18, 
+                        "weave_height": 0, 
+                        "weave_length": 0.1, 
+                        "weave_width": 0.275, 
+                        "weld_speed": 23, 
+                        "wirefeed": 180
+                    }, 
+                    "weldType": "robotic"
+                }, 
+                {
+                    "ingressMoves": [
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ]
+                    ], 
+                    "line": [
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ], 
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ]
+                    ], 
+                    "weldParameters": {
+                        "sched": 3, 
+                        "voltage": 18, 
+                        "weave_height": 0, 
+                        "weave_length": 0.1, 
+                        "weave_width": 0.275, 
+                        "weld_speed": 23, 
+                        "wirefeed": 180
+                    }, 
+                    "weldType": "robotic"
+                }, 
+                {
+                    "ingressMoves": [
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ]
+                    ], 
+                    "line": [
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ], 
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ]
+                    ], 
+                    "weldParameters": {
+                        "sched": 3, 
+                        "voltage": 18, 
+                        "weave_height": 0, 
+                        "weave_length": 0.1, 
+                        "weave_width": 0.275, 
+                        "weld_speed": 23, 
+                        "wirefeed": 180
+                    }, 
+                    "weldType": "robotic"
+                }
+            ]
+        }, 
+        {
+            "elements": [
+                "subassembly_2", 
+                "c_upper"
+            ], 
+            "inspection": {
+                "ingressMoves": [
+                    [
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0
+                    ], 
+                    [
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0
+                    ]
+                ], 
+                "line": [
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ]
+                ]
+            }, 
+            "name": "subassembly_3", 
+            "projection": {
+                "ingressMoves": [
+                    [
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0
+                    ], 
+                    [
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0
+                    ]
+                ], 
+                "projectionTargets": [
+                    [
+                        "c_upper", 
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ]
+                    ], 
+                    [
+                        "d_bottom", 
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ]
+                    ]
+                ]
+            }, 
+            "transformationMatrix": [
+                [
+                    1, 
+                    0, 
+                    0, 
+                    1300
+                ], 
+                [
+                    0, 
+                    1, 
+                    0, 
+                    -500
+                ], 
+                [
+                    0, 
+                    0, 
+                    1, 
+                    -96.8756
+                ], 
+                [
+                    0, 
+                    0, 
+                    0, 
+                    1
+                ]
+            ], 
+            "welds": [
+                {
+                    "ingressMoves": [
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ]
+                    ], 
+                    "line": [
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ], 
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ]
+                    ], 
+                    "weldParameters": {
+                        "sched": 3, 
+                        "voltage": 18, 
+                        "weave_height": 0, 
+                        "weave_length": 0.1, 
+                        "weave_width": 0.275, 
+                        "weld_speed": 23, 
+                        "wirefeed": 180
+                    }, 
+                    "weldType": "robotic"
+                }, 
+                {
+                    "ingressMoves": [
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ]
+                    ], 
+                    "line": [
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ], 
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ]
+                    ], 
+                    "weldParameters": {
+                        "sched": 3, 
+                        "voltage": 18, 
+                        "weave_height": 0, 
+                        "weave_length": 0.1, 
+                        "weave_width": 0.275, 
+                        "weld_speed": 23, 
+                        "wirefeed": 180
+                    }, 
+                    "weldType": "robotic"
+                }, 
+                {
+                    "ingressMoves": [
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ]
+                    ], 
+                    "line": [
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ], 
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ]
+                    ], 
+                    "weldParameters": {
+                        "sched": 3, 
+                        "voltage": 18, 
+                        "weave_height": 0, 
+                        "weave_length": 0.1, 
+                        "weave_width": 0.275, 
+                        "weld_speed": 23, 
+                        "wirefeed": 180
+                    }, 
+                    "weldType": "robotic"
+                }
+            ]
+        }, 
+        {
+            "elements": [
+                "subassembly_3", 
+                "e_upper"
+            ], 
+            "inspection": {
+                "ingressMoves": [
+                    [
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0
+                    ], 
+                    [
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0
+                    ]
+                ], 
+                "line": [
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ]
+                ]
+            }, 
+            "name": "subassembly_4", 
+            "projection": {
+                "ingressMoves": [
+                    [
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0
+                    ], 
+                    [
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0
+                    ]
+                ], 
+                "projectionTargets": [
+                    [
+                        "c_upper", 
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ]
+                    ], 
+                    [
+                        "d_bottom", 
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ]
+                    ]
+                ]
+            }, 
+            "transformationMatrix": [
+                [
+                    1, 
+                    0, 
+                    0, 
+                    1300
+                ], 
+                [
+                    0, 
+                    1, 
+                    0, 
+                    -500
+                ], 
+                [
+                    0, 
+                    0, 
+                    1, 
+                    -96.8756
+                ], 
+                [
+                    0, 
+                    0, 
+                    0, 
+                    1
+                ]
+            ], 
+            "welds": [
+                {
+                    "ingressMoves": [
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ]
+                    ], 
+                    "line": [
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ], 
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ]
+                    ], 
+                    "weldParameters": {
+                        "sched": 3, 
+                        "voltage": 18, 
+                        "weave_height": 0, 
+                        "weave_length": 0.1, 
+                        "weave_width": 0.275, 
+                        "weld_speed": 23, 
+                        "wirefeed": 180
+                    }, 
+                    "weldType": "robotic"
+                }, 
+                {
+                    "ingressMoves": [
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ]
+                    ], 
+                    "line": [
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ], 
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ]
+                    ], 
+                    "weldParameters": {
+                        "sched": 3, 
+                        "voltage": 18, 
+                        "weave_height": 0, 
+                        "weave_length": 0.1, 
+                        "weave_width": 0.275, 
+                        "weld_speed": 23, 
+                        "wirefeed": 180
+                    }, 
+                    "weldType": "robotic"
+                }, 
+                {
+                    "ingressMoves": [
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ]
+                    ], 
+                    "line": [
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ], 
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ]
+                    ], 
+                    "weldParameters": {
+                        "sched": 3, 
+                        "voltage": 18, 
+                        "weave_height": 0, 
+                        "weave_length": 0.1, 
+                        "weave_width": 0.275, 
+                        "weld_speed": 23, 
+                        "wirefeed": 180
+                    }, 
+                    "weldType": "robotic"
+                }
+            ]
+        }, 
+        {
+            "elements": [
+                "subassembly_4", 
+                "d_bottom"
+            ], 
+            "inspection": {
+                "ingressMoves": [
+                    [
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0
+                    ], 
+                    [
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0
+                    ]
+                ], 
+                "line": [
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ], 
+                    [
+                        [
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            1, 
+                            0
+                        ]
+                    ]
+                ]
+            }, 
+            "name": "subassembly_5", 
+            "projection": {
+                "ingressMoves": [
+                    [
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0
+                    ], 
+                    [
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0
+                    ]
+                ], 
+                "projectionTargets": [
+                    [
+                        "c_upper", 
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ]
+                    ], 
+                    [
+                        "d_bottom", 
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ]
+                    ]
+                ]
+            }, 
+            "transformationMatrix": [
+                [
+                    1, 
+                    0, 
+                    0, 
+                    1300
+                ], 
+                [
+                    0, 
+                    1, 
+                    0, 
+                    -500
+                ], 
+                [
+                    0, 
+                    0, 
+                    1, 
+                    -96.8756
+                ], 
+                [
+                    0, 
+                    0, 
+                    0, 
+                    1
+                ]
+            ], 
+            "welds": [
+                {
+                    "ingressMoves": [
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ]
+                    ], 
+                    "line": [
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ], 
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ]
+                    ], 
+                    "weldParameters": {
+                        "sched": 3, 
+                        "voltage": 18, 
+                        "weave_height": 0, 
+                        "weave_length": 0.1, 
+                        "weave_width": 0.275, 
+                        "weld_speed": 23, 
+                        "wirefeed": 180
+                    }, 
+                    "weldType": "robotic"
+                }, 
+                {
+                    "ingressMoves": [
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ]
+                    ], 
+                    "line": [
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ], 
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ]
+                    ], 
+                    "weldParameters": {
+                        "sched": 3, 
+                        "voltage": 18, 
+                        "weave_height": 0, 
+                        "weave_length": 0.1, 
+                        "weave_width": 0.275, 
+                        "weld_speed": 23, 
+                        "wirefeed": 180
+                    }, 
+                    "weldType": "robotic"
+                }, 
+                {
+                    "ingressMoves": [
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ], 
+                        [
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0, 
+                            0
+                        ]
+                    ], 
+                    "line": [
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ], 
+                        [
+                            [
+                                0, 
+                                0, 
+                                0
+                            ], 
+                            [
+                                0, 
+                                0, 
+                                1, 
+                                0
+                            ]
+                        ]
+                    ], 
+                    "weldParameters": {
+                        "sched": 3, 
+                        "voltage": 18, 
+                        "weave_height": 0, 
+                        "weave_length": 0.1, 
+                        "weave_width": 0.275, 
+                        "weld_speed": 23, 
+                        "wirefeed": 180
+                    }, 
+                    "weldType": "robotic"
+                }
+            ]
+        }
+    ]
+}

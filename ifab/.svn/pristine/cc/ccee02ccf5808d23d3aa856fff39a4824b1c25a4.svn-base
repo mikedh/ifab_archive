@@ -1,0 +1,19 @@
+I'm considering folding in some of the functions we've written for iFAB into a very simple python cad/graphics package.
+
+Goals: 
+
+1) Pure python/numpy, for portability and ease of comprehension. Speed hopefully comes from highly vectorized operations. Although we can provide substitute functions for things that are many orders of magnitude faster in a low level language, as long as they are also implemented in Python.
+2) Stick with numpy.ndarrays as much as possible. (http://blog.tojicode.com/2012/04/if-i-built-physics-engine.html)
+3) Dimension-agnostic code (IE transformation of a list works on (10,3) with a (3,3), as well as a (10,6) with a (6,6))
+4) Include relevent, excellent external code (transformations library comes to mind, as well as qhull, with their authors permission)
+5) EXPLICITLY no graphical functions: all functions/objects should be data manipulation, not display or IO. 
+
+2D:
+    import dxfs
+    calculate cut paths maybe?
+    
+3D: 
+    stl import binary/ascii 
+    transform arrays, align vectors, radial sort
+    ray intersection  
+    simple quaternion functions

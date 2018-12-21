@@ -1,0 +1,116 @@
+[
+    {
+        "parts": [
+            "partA.stl", 
+            "partB.stl"
+        ], 
+        "toleranceList": [
+            {
+                "partVerticies": [
+                    [
+                        400
+                    ], 
+                    [
+                        500
+                    ]
+                ], 
+                "toleranceAngle": null, 
+                "toleranceDistance": [
+                    -1, 
+                    1
+                ]
+            }, 
+            {
+                "partVerticies": [
+                    [
+                        400
+                    ], 
+                    [
+                        500
+                    ]
+                ], 
+                "toleranceAngle": null, 
+                "toleranceDistance": [
+                    -1, 
+                    1
+                ]
+            }
+        ]
+    }, 
+    {
+        "parts": [
+            "partA.stl", 
+            "partB.stl"
+        ], 
+        "toleranceList": [
+            {
+                "partVerticies": [
+                    [
+                        400
+                    ], 
+                    [
+                        500
+                    ]
+                ], 
+                "toleranceAngle": null, 
+                "toleranceDistance": [
+                    -1, 
+                    1
+                ]
+            }, 
+            {
+                "partVerticies": [
+                    [
+                        400
+                    ], 
+                    [
+                        500
+                    ]
+                ], 
+                "toleranceAngle": null, 
+                "toleranceDistance": [
+                    -1, 
+                    1
+                ]
+            }
+        ]
+    }, 
+    {
+        "parts": [
+            "partA.stl", 
+            "partB.stl"
+        ], 
+        "toleranceList": [
+            {
+                "partVerticies": [
+                    [
+                        400
+                    ], 
+                    [
+                        500
+                    ]
+                ], 
+                "toleranceAngle": null, 
+                "toleranceDistance": [
+                    -1, 
+                    1
+                ]
+            }, 
+            {
+                "partVerticies": [
+                    [
+                        400
+                    ], 
+                    [
+                        500
+                    ]
+                ], 
+                "toleranceAngle": null, 
+                "toleranceDistance": [
+                    -1, 
+                    1
+                ]
+            }
+        ]
+    }
+]

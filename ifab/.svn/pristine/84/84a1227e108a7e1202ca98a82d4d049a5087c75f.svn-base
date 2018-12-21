@@ -1,0 +1,12 @@
+'''
+Michael Dawson-Haggerty
+CMU Robotics Institute
+For Dr. David Bourne/iFAB
+
+ifab-main.py: main level iFAB welding script
+Used to load a generic iFAB welding format zip file
+Loops through a JSON structure and reads/manipulates 3D models based on the information contained.
+Physical placement of a member is guided with a laser projection system, scanned resulting in a point cloud, and then that very accurate data is used to align the weld, so that parts which are misaligned on an absolute scale, but correct on a relative scale can succeed. We can also use this data to calculate if the relative positions are within tolerance before welding. 
+
+usage: python ifab-main.py ifab-file.zip (-w: enables welding vs simulated welding)
+'''

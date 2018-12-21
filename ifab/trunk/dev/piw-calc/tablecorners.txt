@@ -1,0 +1,7 @@
+787.9   -1210.9 -253.6
+778.0   1230.2  -247.7
+
+2711.575 -1210.9 -253.6
+2721.475 1230.2  -247.7
+
+far corners of table are +1933.575 mm in X, coordinates inferred not measured with robot

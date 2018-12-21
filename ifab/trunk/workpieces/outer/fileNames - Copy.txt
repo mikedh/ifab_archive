@@ -1,0 +1,44 @@
+
+    
+    "FullAssembly - MainAsm-1 LeftSideAsm-1 InnerSideFrameAsm-1 ISF_TopRF_019-1.STL": "0004", 
+    "FullAssembly - MainAsm-1 LeftSideAsm-1 InnerSideFrameAsm-1 SF_FrontAsm-1 SF_Front01_008-1.STL": "2000", 
+
+
+
+    
+    "FullAssembly - MainAsm-1 RightSideAsm-1 InnerSideFrameAsm-1 ISF_TopRF_019-1.STL": "0009", 
+    "FullAssembly - MainAsm-1 RightSideAsm-1 InnerSideFrameAsm-1 SF_FrontAsm-1 SF_Front02_009-1.STL": "2007", 
+    "FullAssembly - MainAsm-1 RightSideAsm-1 InnerSideFrameAsm-1 SF_FrontAsm-1 SF_Front03_010-1.STL": "2008", 
+
+
+
+    "FullAssembly - MainAsm-1 TopCross_023-1.STL": "5007", 
+
+
+
+    
+    #####################DRAWINGS EXIST:
+    
+    "FullAssembly - MainAsm-1 RightSideAsm-1 SideCross01_020-1.STL": "6000", 
+    "FullAssembly - MainAsm-1 RightSideAsm-1 SideCross01_020-2.STL": "6001", 
+    "FullAssembly - MainAsm-1 RightSideAsm-1 SideCross01_020-3.STL": "6002", 
+    "FullAssembly - MainAsm-1 RightSideAsm-1 SideCross01_020-4.STL": "6003", 
+    "FullAssembly - MainAsm-1 RightSideAsm-1 SideCross01_020-5.STL": "6004", 
+    "FullAssembly - MainAsm-1 RightSideAsm-1 SideCross01_020-6.STL": "6005", 
+    "FullAssembly - MainAsm-1 LeftSideAsm-1 SideCross01_020-1.STL": "3000", 
+    "FullAssembly - MainAsm-1 LeftSideAsm-1 SideCross01_020-2.STL": "3001", 
+    "FullAssembly - MainAsm-1 LeftSideAsm-1 SideCross01_020-3.STL": "3002", 
+    "FullAssembly - MainAsm-1 LeftSideAsm-1 SideCross01_020-4.STL": "3003", 
+    "FullAssembly - MainAsm-1 LeftSideAsm-1 SideCross01_020-5.STL": "3004", 
+    "FullAssembly - MainAsm-1 LeftSideAsm-1 SideCross01_020-6.STL": "3005", 
+    "FullAssembly - MainAsm-1 LeftSideAsm-1 SideCross02_022-1.STL": "3006", 
+
+    
+    "FullAssembly - MainAsm-1 LeftSideAsm-1 InnerSideFrameAsm-1 ISF_MidPillar_015-1.STL": "0002", 
+    "FullAssembly - MainAsm-1 RightSideAsm-1 InnerSideFrameAsm-1 ISF_MidPillar_015-1.STL": "0007", 
+    
+    "FullAssembly - MainAsm-1 LeftSideAsm-1 InnerSideFrameAsm-1 ISF_RearPillar_016-1.STL": "0003", 
+    "FullAssembly - MainAsm-1 RightSideAsm-1 InnerSideFrameAsm-1 ISF_RearPillar_016-1.STL": "0008", 
+    
+    "FullAssembly - MainAsm-1 LeftSideAsm-1 InnerSideFrameAsm-1 ISF_TopAsm-1 ISF_Top01_017-1.STL": "1000", 
+    "FullAssembly - MainAsm-1 RightSideAsm-1 InnerSideFrameAsm-1 ISF_TopAsm-1 ISF_Top01_017-1.STL": "1002", 

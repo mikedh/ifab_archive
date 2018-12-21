@@ -1,0 +1,67 @@
+#
+# Generated backup file, do not edit.
+#
+# Originally at: /hd0a/temp/62130DC1
+# 12-05-29  11:49:36
+#
+>>SYSTEM_ID:
+26-63205
+
+>>PRODUCTS_ID:
+RobotWare Version: 5.14.0204.00
+AW-MILLER-AA-007 Version: 5.09.0166.07
+
+  RW Control module key
+  RobotWare OS and English
+  644-3 Spanish
+  645-2 German
+  709-x DeviceNet
+  709-2/709-5 Master/Slave Dual
+  608-1 World Zones
+  611-1 Path Recovery
+  613-1 Collision Detection
+  616-1 PC Interface
+  623-1 Multitasking
+  633-1 Arc
+  650-x Power source type
+  External option loaded Welder
+  652-1 BullsEye
+  RW Drive module 1 key
+  ABB standard manipulator
+  IRB 2600
+  2600-12/1.85 Type A
+  No motor fan
+  Drive System 09 2600/4400/6400R
+  Additional drive
+  ADU-790A in position X3
+  No drive in position Y3
+
+>>ROBOT_TYPE:
+2600-12/1.85 Type A
+
+>>HOME:
+All public files and directories
+
+>>SYSPAR:
+SYS.cfg
+PROC.cfg
+EIO.cfg
+SIO.cfg
+MOC.cfg
+MMC.cfg
+
+
+>>TASK1: (T_ROB1,server,)
+SYSMOD/user.sys @ user.sys
+PROGMOD/SERVER.mod @ server.mod
+PROGMOD/iWeld.mod @ iweld.mod
+
+>>TASK2: (tAwSys_1,,)
+SYSMOD/user.sys @ user.sys
+
+>>TASK3: (LOGGER,log,)
+SYSMOD/user.sys @ user.sys
+PROGMOD/LOGGER.mod @ logger.mod
+
+
+>>EOF:

@@ -1,0 +1,22 @@
+
+
+Motivation
+
+Recent innovations in rapid prototyping, such as FDM, SLA, SLS, etc, have introduced users to the possibility of designing a part or assembly, and then 'printing' them directly from a 3D model. In contrast, traditional manufacturing processes such as milling or welding require a substantial amount of human input and decision making. Even a CNC milled part, where the toolpaths are executed by powered axis, the human must typically come up with a fixturing plan, tweak toolpaths, touch off points on the stock to be milled, etc. 
+
+The focus of our recent effort was to take a single traditional manufacturing process, welding, and attempt to explicitly plan all of the steps of the process. Then, with the plan, build a hardware cell which could execute it. The goal was to make welding parts as simple as drawing them in a CAD package and pressing 'print.'
+
+The ultimate endgame would be a factory floor filled with dozens or hundreds of nodes capable of milling, welding, bending, purchasing, assembly, etc. A user would send a full CAD assembly to the foundry, which would split the design up among the nodes based on metrics of ability, quality and cost. It would essentially be a generic assembly line, with the goal of moving the cost of one- off assemblies closer to that of a mass produced assembly. 
+
+
+First Generation Welding Node Design, Hardware
+
+The hardware cell we fabricated was a fairly typical robotic welding cell, with the addition several key compenents. First, we added a robot mounted laser displacement sensor which can scan workpieces with sub-millimeter accuracy in ideal cases. We also added a laser projector, which uses a similar calibration routine, and can project workpiece locations to a user, also with sub-millimeter accuracy in most cases. We also added a fairly large, modular welding table. 
+
+The goals of the hardware were to provide a testbed for the 'process metalanguage': our software stack takes the model files and weld locations, and outputs a data structure defining the order of operations, geometric placements, etc. The hardware was required to be able to loop through this data structure and execute the operations as instructed.
+
+The 'endgame functionality' of the welding node would be to take an arbitrary geometry 'part A' and weld it to a 'part B.' Concerns such as fixturing, work volume, and 6 degree of freedom placement caused us to look at a subset of that problem: planar sections of space frames.    
+
+
+
+First Generation Welding Node Design, Software
